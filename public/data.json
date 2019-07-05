@@ -1,0 +1,67 @@
+{
+    "Orders":[
+        {"OrderTime": "2017-05-12", "number":"3333" },
+        {"OrderTime": "2012-05-12", "number":"2222" },
+        {"OrderTime": "2014-05-12", "number":"444" },
+        {"OrderTime": "2017-08-12", "number":"11111"},
+        {"OrderTime": "2018-05-12", "number":"666" },
+        {"OrderTime": "2019-05-12", "number":"5555"}
+    ],
+    "CustomerList":[
+        "张三","李四","王五","李五","王二","何","江"
+    ],
+    "Customer":[
+        {
+            "CUS_NO":"A1",  "CUS_NAME":"张三",  "SAL": "",  "passWord":"123",   "CUS_TEL":"11111111",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":""
+        },
+        {
+            "CUS_NO":"A7",  "CUS_NAME":"李四",  "SAL": "",  "passWord":"123",   "CUS_TEL":"2222222",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A1"
+        },
+        {
+            "CUS_NO":"A3",  "CUS_NAME":"王五",  "SAL": "",  "passWord":"123",   "CUS_TEL":"12312312",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A1"
+        },{
+            "CUS_NO":"A4",  "CUS_NAME":"何心",  "SAL": "",  "passWord":"123",   "CUS_TEL":"13344566",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A1"
+        },{
+            "CUS_NO":"A5",  "CUS_NAME":"温寒",  "SAL": "",  "passWord":"123",   "CUS_TEL":"11156789",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A10"
+        },
+        {
+            "CUS_NO":"A6",  "CUS_NAME":"洛芷",  "SAL": "",  "passWord":"123",   "CUS_TEL":"22245678",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A1"
+        },
+        {
+            "CUS_NO":"A10",  "CUS_NAME":"漫天",  "SAL": "",  "passWord":"123",   "CUS_TEL":"772838",
+            "CUS_AREA":"上海",  "AREA_NAME":"江浙沪区域",   "CUS_RANK":"2", "TXJS":"30%",   "TSJS":"20%",
+            "VALID_TIME": "",   "TJ_NUM":"2",   "SYS_DATE":"",  "INPUT_DATE":"",    "CUS_UP":"A1"
+        }
+    ],
+    "Login":[
+        {
+            "LOGIN_NO":"A1",    "LOGIN_NAME":"广东天心",    "LOGIN_PWD":"123",  "LOGIN_TYPE":"Customer",
+            "CORRE_SALE":"",    "CORRE_CUST": "",   "VALID_TIME":"",    "ISADMIN":"T",  "INPUT_DATE":""
+        },
+        {
+            "LOGIN_NO":"A2",    "LOGIN_NAME":"广东天心",    "LOGIN_PWD":"123",  "LOGIN_TYPE":"Worker",
+            "CORRE_SALE":"",    "CORRE_CUST": "",   "VALID_TIME":"",    "ISADMIN":"T",  "INPUT_DATE":""
+        },
+        {
+            "LOGIN_NO":"A10",    "LOGIN_NAME":"广东天心",    "LOGIN_PWD":"123",  "LOGIN_TYPE":"Customer",
+            "CORRE_SALE":"",    "CORRE_CUST": "",   "VALID_TIME":"",    "ISADMIN":"T",  "INPUT_DATE":""
+        },
+        {
+            "LOGIN_NO":"a1",    "LOGIN_NAME":"广东天心",    "LOGIN_PWD":"123",  "LOGIN_TYPE":"Customer",
+            "CORRE_SALE":"",    "CORRE_CUST": "",   "VALID_TIME":"",    "ISADMIN":"T",  "INPUT_DATE":""
+        }
+
+    ]
+}
